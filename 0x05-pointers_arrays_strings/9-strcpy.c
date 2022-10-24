@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 
 /**
  * _strcpy - Copies a string pointed to by @src, including the
@@ -8,15 +8,17 @@
  *
  * Return: A pointer to the destination string @dest.
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-int index = 0;
 
-while (src[index])
-{
-dest[index] = src[index];
-index++;
+int i = -1;
+
+do {
+i++;
+dest[i] = src[i];
 }
+
+while (src[i] != '\0');
 
 return (dest);
 }
