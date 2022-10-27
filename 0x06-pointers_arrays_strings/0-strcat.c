@@ -15,5 +15,5 @@ char *_strcat(char *dest, char *src)
 
 char *val = strcat(dest, src);
 
-README.md return (val);
+return (val);
 }
