@@ -1,6 +1,6 @@
 /*
  * File: 1-print_numbers.c
- * Auth: Timothy Victor
+ * Auth: Ayeni Tobi
  */
 
 #include "variadic_functions.h"
@@ -31,4 +31,4 @@ printf("%s", separator);
 printf("\n");
 
 va_end(nums);
-}
+} 
